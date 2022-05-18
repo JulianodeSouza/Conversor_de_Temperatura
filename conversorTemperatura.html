@@ -1,0 +1,47 @@
+<html>
+
+<head>
+  <title>Conversor de Temperatura</title>
+
+
+  <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.min.css">
+  <script type="text/javascript" src="arquivo.js"></script>
+  <link type="text/css" rel="stylesheet" href="Estilo.css">
+</head>
+
+<body>
+  <main>
+    <section class="container col-md-4">
+      <div class="input-group mb-3">
+
+        <input id="celsius" placeholder="Temperatura em Celisus" autofocus type="number" class="form-control"
+          aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        <button type="submit" class="btn btn-primary" onclick="conversorCelsius()">Converter</button>
+      </div>
+    </section>
+
+    <section class="container col-md-4">
+      <div class="input-group mb-3">
+        <input id="fahrenheit" placeholder="Temperatura em Fahrenheit" type="number" class="form-control"
+          aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        <button type="submit" class="btn btn-primary" onclick="conversorFahrenheit()">Converter</button>
+      </div>
+    </section>
+
+    <section class="container col-md-4">
+      <div class="input-group mb-3">
+        <input id="kelvin" placeholder="Temperatura em Kelvin" type="number" class="form-control"
+          aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        <button type="submit" class="btn btn-primary" onclick="conversorKelvin()">Converter</button>
+      </div>
+    </section>
+
+
+  </main>
+
+  <script src="./bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+  <script src="./jquery-3.6.0.min.js"></script>
+
+</body>
+
+</html>
